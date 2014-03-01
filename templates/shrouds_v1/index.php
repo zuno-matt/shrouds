@@ -602,7 +602,7 @@ else
         <div class="footer">
         	<!-- footer_bottom -->
         	<div class="footer_bottom container">         
-                <div class="fleft copyright">Clement Johnson &copy; 2020 | <a href="javascript:void(0);">Privacy Policy</a></div>
+                <div class="fleft copyright">Shrouds Photography &copy; <?php echo date('Y'); ?> | <a href="javascript:void(0);">Privacy Policy</a></div>
 				<a href="#home" class="fright down_btn">Back to top</a>
 				<div class="clear"></div>
             </div>
