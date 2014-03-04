@@ -122,14 +122,14 @@ else
         <section id="top">
             <header>
                 <div class="container">
-                    <div id="logo"><a href="index.html" alt="">Shrouds Photography</a></div>
+                    <div id="logo"><a href="index.html" alt="">Shrouds</a></div>
 					<nav class="navmenu">
                         <ul>
                             <li class="active first"><a href="#top">Home</a></li>
                             <li><a href="#about">About</a></li>
 							<li class="center_menu_item"><a href="#services">Services</a></li>
                             <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#events">Events</a></li>
+                            <li><a href="#blog">Blog</a></li>
                             <li class="last"><a href="#contact">Contact</a></li>
                         </ul>
                     </nav><!-- end nav -->
@@ -152,22 +152,16 @@ else
         <!-- about content-->
         <section class="page_section" id="about">
             <!-- section header -->
-			<div class="container">
+			<header class="container">
 				<h2>About</h2>
-			</div>
+			</header>
             <!-- //section header -->
             
             <!-- section content -->
             <div class="content_section container">
                 <div class="row">
-                	<div class="span6">
-						<p>Aenean sagittis tortor quis nisl aliquet at rutrum nisi posuere. Ut sollicitudin congue orci sed aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et. Morbi rutrum, elit ac fermentum egestas, tortor ante vestibulum est, eget scelerisque nisl velit eget tellus. Fusce porta facilisis luctus. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et.</p>
-						<p>Integer neque dolor, rhoncus nec euismod eget, pharetra et tortor. Nulla id pulvinar nunc. Vestibulum auctor nisl vel lectus ullamcorper sed pellentesque dolor eleifend. Praesent lobortis magna vel diam mattis sagittis. Integer neque dolor, rhoncus nec euismod eget, pharetra et tortor. Nulla id pulvinar nunc. Vestibulum auctor nisl vel lectus ullamcorper sed pellentesque dolor eleifend. Praesent lobortis magna vel diam mattis sagittis. Integer neque dolor, rhoncus nec euismod eget, pharetra et tortor. Nulla id pulvinar nunc. Vestibulum auctor nisl vel lectus ullamcorper sed pellentesque dolor eleifend. Praesent lobortis magna vel diam mattis sagittis.</p>
-					</div>
-					<div class="span6">
-						<p>Aenean sagittis tortor quis nisl aliquet at rutrum nisi posuere. Ut sollicitudin congue orci sed aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et. Morbi rutrum, elit ac fermentum egestas, tortor ante vestibulum est, eget scelerisque nisl velit eget tellus. Fusce porta facilisis luctus. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et.</p>
-						<p>Integer neque dolor, rhoncus nec euismod eget, pharetra et tortor. Nulla id pulvinar nunc. Vestibulum auctor nisl vel lectus ullamcorper sed pellentesque dolor eleifend. Praesent lobortis magna vel diam mattis sagittis. Integer neque dolor, rhoncus nec euismod eget, pharetra et tortor. Nulla id pulvinar nunc. Vestibulum auctor nisl vel lectus ullamcorper sed pellentesque dolor eleifend. Praesent lobortis magna vel diam mattis sagittis. Integer neque dolor, rhoncus nec euismod eget, pharetra et tortor. Nulla id pulvinar nunc. Vestibulum auctor nisl vel lectus ullamcorper sed pellentesque dolor eleifend. Praesent lobortis magna vel diam mattis sagittis.</p>
-					</div>
+                	<jdoc:include type="message" />
+					<jdoc:include type="component" />
 					<div class="clear"></div>
                 </div>
             </div>
@@ -409,106 +403,8 @@ else
 			</div>
 		</section>
         
-        <!-- events content-->
-        <section class="page_section" id="events">
-            <!-- section header -->
-			<div class="container">
-				<h2>Events</h2>
-			</div><!-- //section header -->
-            
-            <!-- section content -->
-            <div class="content_section container"> 
-                <div class="events_block">
-					<div class="post_block">
-						<div class="event_img">
-							<img src="templates/<?php echo $this->template; ?>/images/events/1.jpg" alt="" />
-							<a class="zoom" href="images/events/1.jpg" rel="prettyPhoto[portfolio1]"></a>
-						</div>
-						<div class="event_description">
-							<a class="title" href="javascript:void(0);" alt="">Pellentesque elementum, magna eu</a>
-							<div class="event_info"><span class="place">London</span></div>
-							Aenean sagittis tortor quis nisl aliquet at rutrum nisi posuere. Ut sollicitudin congue orci sed aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum, elit ac fermentum <a class="read_more" href="javascript:void(0);" alt="">[...]</a>
-						</div>
-						<div class="post_date">23<span>july</span></div>
-					</div>
-					<div class="post_block second_post_block right_post">
-						<div class="event_img">
-							<img src="templates/<?php echo $this->template; ?>/images/events/2.jpg" alt="" />
-							<a class="zoom" href="images/events/2.jpg" rel="prettyPhoto[portfolio1]"></a>
-						</div>
-						<div class="event_description">
-							<a class="title" href="javascript:void(0);" alt="">Vestibulum adipiscing fermentum</a>
-							<div class="event_info"><span class="place">London</span></div>
-							Nullam eros lectus, adipiscing non ligula eu, egestas tempus purus. Donec feugiat eleifend risus, quis feugiat lectus suscipit vitae. Curabitur vitae blandit lectus. Fusce rhoncus semper mattis <a class="read_more" href="javascript:void(0);" alt="">[...]</a>
-						</div>
-						<div class="post_date">20<span>july</span></div>
-					</div>
-					<div class="post_block right_post">
-						<div class="event_img">
-							<img src="templates/<?php echo $this->template; ?>/images/events/4.jpg" alt="" />
-							<a class="zoom" href="images/events/4.jpg" rel="prettyPhoto[portfolio1]"></a>
-						</div>
-						<div class="event_description">
-							<a class="title" href="javascript:void(0);" alt="">In magna mi, luctus sit</a>
-							<div class="event_info"><span class="place">London</span></div>
-							Nullam eros lectus, adipiscing non ligula eu, egestas tempus purus. Donec feugiat eleifend risus, quis feugiat lectus suscipit vitae. Curabitur vitae blandit lectus. Fusce rhoncus semper mattis <a class="read_more" href="javascript:void(0);" alt="">[...]</a>
-						</div>
-						<div class="post_date">18<span>july</span></div>
-					</div>
-					<div class="post_block">
-						<div class="event_img">
-							<img src="templates/<?php echo $this->template; ?>/images/events/3.jpg" alt="" />
-							<a class="zoom" href="images/events/3.jpg" rel="prettyPhoto[portfolio1]"></a>
-						</div>
-						<div class="event_description">
-							<a class="title" href="javascript:void(0);" alt="">Cras cursus felis vestibulum</a>
-							<div class="event_info"><span class="place">London</span></div>
-							Aenean sagittis tortor quis nisl aliquet at rutrum nisi posuere. Ut sollicitudin congue orci sed aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum, elit ac fermentum <a class="read_more" href="javascript:void(0);" alt="">[...]</a>
-						</div>
-						<div class="post_date">17<span>july</span></div>
-					</div>
-					<div class="post_block right_post">
-						<div class="event_img">
-							<img src="templates/<?php echo $this->template; ?>/images/events/5.jpg" alt="" />
-							<a class="zoom" href="images/events/5.jpg" rel="prettyPhoto[portfolio1]"></a>
-						</div>
-						<div class="event_description">
-							<a class="title" href="javascript:void(0);" alt="">Vestibulum adipiscing fermentum varius.</a>
-							<div class="event_info"><span class="place">London</span></div>
-							Nullam eros lectus, adipiscing non ligula eu, egestas tempus purus. Donec feugiat eleifend risus, quis feugiat lectus suscipit vitae. Curabitur vitae blandit lectus. Fusce rhoncus semper mattis <a class="read_more" href="javascript:void(0);" alt="">[...]</a>
-						</div>
-						<div class="post_date">13<span>july</span></div>
-					</div>
-					<div class="center_line_events"></div>
-				</div>
-				<div class="load_more_cont"><a href="javascript:void(0)" class="btn_load_more2">more</a></div>
-				<script type="text/javascript">
-/*
-					jQuery(window).load(function(){
-						items_set = [
-						
-							{title : 'Mauris elementum', content: 'Aenean sagittis tortor quis nisl aliquet at rutrum nisi posuere. Ut sollicitudin congue orci sed aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum, elit ac fermentum', place : 'London', event_date : '10', event_month : 'july', src : 'images/events/1.jpg', url : 'javascript:void(0)', category: '' },
-							
-							{date_indent_class : 'second_post_block', title : 'Mauris elementum', content: 'Aenean sagittis tortor quis nisl aliquet at rutrum nisi posuere. Ut sollicitudin congue orci sed aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum, elit ac fermentum', place : 'London', event_date : '10', event_month : 'july', src : 'images/events/2.jpg', url : 'javascript:void(0)', category: 'right_post' },
-							
-							{title : 'Mauris elementum', content: 'Aenean sagittis tortor quis nisl aliquet at rutrum nisi posuere. Ut sollicitudin congue orci sed aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum, elit ac fermentum', place : 'London', event_date : '09', event_month : 'july', src : 'images/events/3.jpg', url : 'javascript:void(0)', category: 'right_post' },
-							
-							{title : 'Mauris elementum', content: 'Aenean sagittis tortor quis nisl aliquet at rutrum nisi posuere. Ut sollicitudin congue orci sed aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum, elit ac fermentum', place : 'London', event_date : '08', event_month : 'july', src : 'images/events/4.jpg', url : 'javascript:void(0)', category: '' },
-							
-							{title : 'Mauris elementum', content: 'Aenean sagittis tortor quis nisl aliquet at rutrum nisi posuere. Ut sollicitudin congue orci sed aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum, elit ac fermentum', place : 'London', event_date : '07', event_month : 'july', src : 'images/events/5.jpg', url : 'javascript:void(0)', category: '' }
-
-						];
-						jQuery('#list').events_addon({
-							type : 1, // 2-4 columns simple portfolio
-							load_count : 2,
-							items : items_set
-						});
-					});
-*/
-				</script>
-			</div><!-- //section content -->
-        </section>
-		
+		<jdoc:include type="modules" name="blog_module" style="none" />
+				
 		<section id="testimonials">
             <!-- section header -->
 			<div class="parallax_effect" data-stellar-background-ratio="0.5">
@@ -558,18 +454,8 @@ else
 					<div class="clear"></div>
                 	<div class="span3">
 						<div class="contact_info">
-							<h3>Address</h3>
-							24 Fifth st.New York City, United States
-						</div>
-						<div class="contact_info">
-							<h3>Phone</h3>
-							+1 959 603 6035</br>
-							+1 959 603 6035
-						</div>
-						<div class="contact_info">
 							<h3>Email</h3>
-							<a href="mailto:clementjohnson@sitename.com" alt="">clementjohnson@sitename.com</a>
-							<a href="mailto:johnson@sitename.com" alt="">johnson@sitename.com</a>
+							<a href="contact@shroudsphotography.com" title="Email Me">contact@shroudsphotography.com</a>
 						</div>
                 	</div>
 					<div class="span9">
